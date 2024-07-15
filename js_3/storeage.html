@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Set data in localStorage
+localStorage.setItem('username', 'JohnDoe');
+localStorage.setItem('email', 'johndoe@example.com');
+
+// Retrieve data from localStorage
+const username = localStorage.getItem('username');
+const email = localStorage.getItem('email');
+
+console.log(username); // Outputs: JohnDoe
+console.log(email);    // Outputs: johndoe@example.com
+
+// Remove an item from localStorage
+localStorage.removeItem('email');
+
+// Clear all items from localStorage
+// localStorage.clear();
+
+    </script>
+
+
+
+
+</body>
+</html>
